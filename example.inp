@@ -1,0 +1,12 @@
+:                        Empty line assumed here
+Cycles: 50/50
+NProc: 1
+Program: /home/usuario/g09/g09
+NumberOfConfigurations: 10
+B3LYP 3-21G
+
+2 1
+C 2
+Ge 2
+---
+

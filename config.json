@@ -1,0 +1,8 @@
+{
+	"Population": 6,
+	"Function_Calls": 10000,
+	"F": 0.7,
+	"Cr": 0.9,
+	"Restart": 5,
+	"Elitism": 5
+}
