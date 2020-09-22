@@ -1,7 +1,7 @@
-# Molecules Evolutionary Design (MED)
-The **Molecular Evolutionary Design** (MED) is an evolutive framework to model molecules from their atoms.
+# Micro-differential evolution cluster-optimizer (MiDECO)
+The **Micro-differential evolution cluster-optimizer** (MiDECO) is an evolutive framework to model molecules from their atoms.
 
-MED uses a Micro-Differential Evolution (mDE) to optimize the atom position in the molecule,  working in a three-dimensional space.
+MiDECO uses a Micro-Differential Evolution (mDE) to optimize the atom position in the molecule,  working in a three-dimensional space.
 
 Gaussian is used to calculate the energy from the molecule proposed and it is used as a fitness function in mDE.
 
@@ -15,14 +15,14 @@ sh execute_all.sh <directory with inp files> <global options files>
 
 ## Input file
 
-MED needs an input file to specify the parameters to be used in the evolutive process.
+MiDECO needs an input file to specify the parameters to be used in the evolutive process.
 
 The input file usually has the extension inp and it contains the following structure:
 -  A line that starts with two points and is empty.
 - The cycles to be used in Gaussian.
 - The process to be used by each Gaussian instance.
 - The Gaussian path.
-- The configurations showed by MED.
+- The configurations showed by MiDECO.
 - Optimization method used by Gaussian.
 - Gaussian configuration.
 - List with Atoms Symbols and amount to be used.
